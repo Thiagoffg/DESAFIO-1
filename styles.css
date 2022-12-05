@@ -1,0 +1,147 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0 0 42px;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    width: 493px;
+    margin-top: 342px;
+    margin-left: 84.98px;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    width: 493px;
+    margin-top: 47px;
+    margin-left: 84.98px;
+    margin-bottom: 55px;
+
+}
+
+.logo-image {
+    width: 595.18px;
+    height: 500px;
+    margin: 163px 0 0 121px;
+    display: inline-block;
+
+}
+
+.link-header {
+    width: 83px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-signup {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    width: 124px;
+    height: 51px;
+    border: none;
+}
+
+section {
+    display: inline-block;
+
+}
+
+.link-learmore {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+    margin-left: 84.98px;
+}
+
+@media screen and (max-width: 900px){
+    .link-header {
+        display: none;
+    }
+
+    section {
+        display: inline-block;
+    }
+
+
+.button-signup {
+    margin-left: 220px;
+    margin-top: -42px;
+    position: absolute;
+
+}
+
+h1 {
+    width: 278px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+p {
+    width: 304px;
+    height: 165px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin: 20px 0px 21px 40px;
+    position: absolute
+}
+
+.link-learmore {
+    display: none;
+}
+
+.logo-image {
+    position: absolute;
+    max-width: 70%;
+    top: 250px;
+    left: -50px;
+    width: 350px;
+    height: 350px;
+
+}
+}

@@ -97,8 +97,10 @@ section {
 
 
 .button-signup {
-    margin-left: 220px;
+    margin-left: 225px;
     margin-top: -42px;
+    width: 105px;
+    height: 50px;
     position: absolute;
 
 }
@@ -138,10 +140,10 @@ p {
 .logo-image {
     position: absolute;
     max-width: 70%;
-    top: 250px;
+    top: 196px;
     left: -50px;
-    width: 350px;
-    height: 350px;
+    width: 305px;
+    height: 305px;
 
 }
 }
